@@ -1,4 +1,4 @@
-module github.com/dvob/kube-config-merge
+module github.com/RafalSkolasinski/kube-config-merge
 
 go 1.23.0
 

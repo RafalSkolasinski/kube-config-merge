@@ -1,4 +1,8 @@
 # kube-config-merge
+
+All credit to https://github.com/dvob/kube-config-merge.
+This is just a fork for my own convenience.
+
 Merges Kubernetes configuration from SOURCE into the current configuration. It uses the default kubectl config locations or you can explicitly specify a target config using `--kubeconfig` flag.
 If no SOURCE is specified it is read from standard input.
 
@@ -13,6 +17,7 @@ ssh kubeadm-host sudo cat /etc/kubernetes/admin.conf | kube-config-merge --name 
 ```
 
 # Install
-```
-go install github.com/dvob/kube-config-merge@latest
+
+```bash
+go install github.com/RafalSkolasinski/kube-config-merge@latest
 ```
